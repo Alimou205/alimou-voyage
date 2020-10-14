@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-left:auto;
+    margin-right:auto;
+    width:95%;
+     box-sizing: border-box;
+     /*
+        width: calc(100%-40px);
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+*/
+    }
+}
+/*head */
+header{
+    background-color: lightblue;
+    color: white;
+    height: 50px;
+}
+.menu{
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+}
+.menu .logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    margin-left: 5px;
+}
+.menu ul{
+   text-decoration: none;
+   font-size: 20px;
+
+}
+.menu ul li{
+    display: inline-block;
+    margin-top: 10px;
+}
+.menu ul li a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+
+}
+.menu ul li a:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+/*body */
+/*slide image */
+.image-slide{
+    background-image: url("../image/slide/in-ground-pool-near-building-during-daytime-751268.jpg");
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    color: white;
+    padding-top: 55px;
+    letter-spacing: 3px;
+}
+.image-slide h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px black;
+}
+/*offres hotels*/
+.grid-items{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 100px;
+}
+.titre{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.offres-items .prix{
+    margin-left: 10px;
+    font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+}
+.offres-items img{
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    text-shadow: 1px 1px 5px black;
+}
+.prix  p{
+    color: blue;
+}
+.prix span{
+    color: orange;
+    font-size: bold;
+}
+/*allez-retour */
+.box-allez-retour{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.formes-allez-retour{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: grey;
+    height: 100px;
+    width: 300px;
+}
+.formes-allez-retour .guinee{
+    padding-top: 10px;
+    margin-left:10px;
+}
+/* tourisme*/
+.offres-tourisme{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.offres-tourisme img{
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
+    text-shadow: 1px 1px 5px black;
+}
+.box-tourisme{
+    height: 290px;
+    background-color: violet;
+    border-radius: 10px;
+    text-shadow: 1px 1px 5px black;
+}
+/*a propos de nous */
+.formes-apropos{
+    text-align: justify;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    height: 150px;
+}
+.box-apropos{
+    padding-top: 25px;
+    padding:  15px;
+    display: flex;
+    flex-basis: 50px;
+}
+.equipe .centre{
+    border-left: black 2px solid;
+}
+.equipe h4{
+    color: blue;
+
+}
+/*contact */
+.box-contact{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+form input{
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.contact{
+    padding: 20px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+/*footer */
+footer{
+    height: 50px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 1px 5px black;
+}
+footer p{
+    height: 40px;
+    position: relative;
+    top: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+}
